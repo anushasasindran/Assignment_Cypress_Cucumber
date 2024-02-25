@@ -2,7 +2,8 @@
 This repository features a comprehensive Cypress framework integrated with BDD using Cucumber, designed for end-to-end testing of a sample project. 
 # **Description**
 This automates this web page - https://practice.expandtesting.com/notes/app  
-The scenarios covered are Registrartion, Login and Add notes
+The scenarios covered are Registrartion, Login and Add notes  
+
 **Cucumber BDD** : Using cucumber feature files and step definitions files.  
 **Data-driven testing**: is achieved using cucumber feature files and JSON files for managing input and output data.  
 **Advanced Reporting**: Integration with Mochaawesome for detailed and informative test reports.  
