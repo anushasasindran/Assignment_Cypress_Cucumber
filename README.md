@@ -1,18 +1,13 @@
-# **CypressBDDCucumberE2E**
-This repository features a comprehensive Cypress framework integrated with BDD using Cucumber, designed for end-to-end testing of a sample project. It encompasses UI, API, and XHR testing, providing robust examples of behavior-driven development in action.
+# **CypressBDDCucumber**
+This repository features a comprehensive Cypress framework integrated with BDD using Cucumber, designed for end-to-end testing of a sample project. 
 # **Description**
-This Cypress testing framework is designed to cover end-to-end testing of a sample application that includes user registration, login, note creation, editing, retrieval, and deletion. It incorporates:  
+This automates this web page - https://practice.expandtesting.com/notes/app  
+The scenarios covered are Registrartion, Login and Add notes
 **Cucumber BDD** : Using cucumber feature files and step definitions files.  
-**API Testing**: Testing endpoints for user registration, login, note operations, and authentication token generation.  
-**UI Testing**: Utilizing the Page Object Model to perform end-to-end UI tests from user registration to note deletion.  
-**XHR Testing**: Integrated with UI testing to validate XHR (XMLHttpRequest) calls.  
-Data-driven testing is achieved using cucumber feature files and JSON files for managing input and output data.  
-# **Features**  
-**Comprehensive Testing**: Complete end-to-end testing covering both UI and API aspects with cucumber BDD.  
-**Data-Driven Approach**: Utilizing feature files and JSON files for dynamic data handling in tests.  
+**Data-driven testing**: is achieved using cucumber feature files and JSON files for managing input and output data.  
 **Advanced Reporting**: Integration with Mochaawesome for detailed and informative test reports.  
 **Efficient Test Organization**: Using the Page Object Model for maintaining and managing UI tests.  
-**XHR Testing Integration**: Directly testing XHR requests alongside UI tests for real-time data validation.  
+
 # **Pre-requistes**  
 **Operating System**: Cypress is a desktop application that is installed on your computer. It supports macOS, Linux, and Windows.  
 **Node.js**: Cypress is a Node.js application. Ensure you have Node.js (and npm) installed. A version of 10 or above is recommended.  
@@ -48,7 +43,6 @@ npm install mochawesome-report-generator --save-dev
 # **Scripts**  
 The scripts to run are given under Scripts on Package.json file(to run in test runner and Commandline in headed and non-headed).  
 npm run clean-up(to clean the previous results)
-npm run APICLtest(to run the API tests in CL)  
 npm run UICLtest(to run the UI tests in CL)  
 npm run mochawesome-merge(to generate the reports)
 
