@@ -43,9 +43,10 @@ npm install mochawesome-merge --save-dev
 npm install mochawesome-report-generator --save-dev  
 # **Scripts**  
 The scripts to run are given under Scripts on Package.json file(to run in test runner and Commandline in headed and non-headed).  
-npm run clean-up(to clean the previous results)
-npm run UICLtest(to run the UI tests in CL)  
-npm run mochawesome-merge(to generate the reports)
+npm run clean-up(to clean the previous results)  
+npm run UICLtest(to run the UI tests in CL)    
+npm run UIchromeTest(to run the UI tests in chrome)  
+npm run mochawesome-merge(to generate the reports)  
 
 
 
